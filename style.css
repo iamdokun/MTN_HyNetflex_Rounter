@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contianer {
+    width: 100%;
+    font-family: "mtnFont"; 
+}
+@font-face {
+    font-family: mtnFont;
+    src: url("./font/MTNBrighterSans-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#top {
+    background: #FFCC00;
+    padding-left: 200px;
+    height: 75px;
+}
+
+.topmtn {
+    margin-top: 15px;
+    float: left;
+}
+#toptext {
+    width: 350px;
+    margin-top: 28px;
+    margin-left: 3px;
+}
+#pc-mobile {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+#background {
+    width: 100%;
+    height: 500px;
+    background: url(images/background.png);
+    overflow: hidden;
+    
+}
+#login {
+    float: left;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin-top: 90px;
+    margin-left: 215px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+#login-text {
+    background: #FFCC00;
+    margin-bottom: 35px;
+    padding: 25px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#login-input {
+    text-align: center;
+}
+#login-input input {
+    border: 2px solid #FFCC00;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-family: "mtnFont"; 
+    outline: none;
+}
+#login-input button {
+    border: none;
+    background-color: #FFCC00;
+    height: 35px;
+    width: 170px;
+    border-radius: 30px;
+    font-family: "mtnFont"; 
+    outline: none;
+    cursor: pointer;
+}
+#mymtn {
+    margin-top: 190px;
+    margin-left: 770px;
+    color: white;
+}
+div#mymtn1 {
+    font-size: 28px;
+
+}
+#mymtn2 {
+    font-size: 35px;
+    margin-left: 10px;
+}
+#footer {
+    text-align: center;
+    padding: 13.9px;
+    background-color: #c5c5c5;
+    font-size: 12px;
+}
+
+
+
+
+@media(max-width:800px) {
+
+}
+
